@@ -3,7 +3,8 @@
 // @namespace      http://www.srcw.net/
 // @description    Starred item open in a lump for Feedly for Chrome
 // @include        http://feedly.com/*
-// @version        1.0.1
+// @include        https://feedly.com/*
+// @version        1.0.2
 // ==/UserScript==
 
 (function() {
