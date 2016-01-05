@@ -4,7 +4,7 @@
 // @description    Starred item open in a lump for Feedly for Chrome
 // @include        http://feedly.com/*
 // @include        https://feedly.com/*
-// @version        1.0.3
+// @version        1.0.4
 // ==/UserScript==
 
 (function() {
@@ -30,7 +30,7 @@
 
                 var star = stars.snapshotItem(0);
                 var event = document.createEvent('MouseEvents');
-                event.initMouseEvent('click', true, true);
+                event.initMouseEvent('click', true, true, window, 0, 0, 0, 0, 0, false, false, false, false, 0, null);
                 star.dispatchEvent(event);
             }
         }
